@@ -21,7 +21,7 @@ public class IndexController {
 
 	@GetMapping("/list")
 	public List<String> listApi() {
-		List<String> list = Arrays.asList("NEHAL", "GAURI", "SAGAR","SACHIN","MAYUR");
+		List<String> list = Arrays.asList("NEHAL", "GAURI", "SAGAR","SACHIN","MAYUR","PANKAJ");
 		return list;
 	}
 }
